@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo/logo@2x.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navb"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+          </ul>
+
+          <!-- Mobile button -->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+          </form>
+
+          <!-- Desktop button -->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+              Masuk
+            </button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Header -->
+    <header class="text-center">
+      <h1>
+        Explore The Beautiful World <br />
+        As Easy One Click
+      </h1>
+      <p class="mt-3">
+        You will be see beautiful <br />
+        moment you never see before
+      </p>
+      <a href="#" class="btn btn-get-started px-4 mt-4">Get Started</a>
+    </header>
+
+    <!-- Statistik -->
+    <main>
+      <div class="container">
+        <section class="section-start row justify-content-center" id="start">
+          <div class="col-3 col-md-2 start-detail">
+            <h2>20K</h2>
+            <p>Members</p>
+          </div>
+          <div class="col-3 col-md-2 start-detail">
+            <h2>12</h2>
+            <p>Countries</p>
+          </div>
+          <div class="col-3 col-md-2 start-detail">
+            <h2>3K</h2>
+            <p>Hotels</p>
+          </div>
+          <div class="col-3 col-md-2 start-detail">
+            <h2>72</h2>
+            <p>Partners</p>
+          </div>
+        </section>
+      </div>
+
+      <section class="section-popular" id="popular">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-popular-heading">
+              <h2>Wisata Populer</h2>
+              <p>
+                Something that you never try <br />
+                before in the world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-popular-content" id="popular-content">
+        <div class="container">
+          <div class="popular-content-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('images/popular-1@2x.jpg')"
+              >
+                <div class="travel-country">Indonesia</div>
+                <div class="travel-location">Deretan, Bali</div>
+                <div class="travel-button mt-auto">
+                  <a href="#" class="btn btn-travel-detail px-4">
+                    View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('images/popular-2@2x.jpg')"
+              >
+                <div class="travel-country">Indonesia</div>
+                <div class="travel-location">Bromo, Malang</div>
+                <div class="travel-button mt-auto">
+                  <a href="#" class="btn btn-travel-detail px-4">
+                    View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('images/popular-3@2x.jpg')"
+              >
+                <div class="travel-country">Indonesia</div>
+                <div class="travel-location">Nusa Penida, Bali</div>
+                <div class="travel-button mt-auto">
+                  <a href="#" class="btn btn-travel-detail px-4">
+                    View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: url('images/popular-4@2x.jpg')"
+              >
+                <div class="travel-country">Indonesia</div>
+                <div class="travel-location">Midle East, Bali</div>
+                <div class="travel-button mt-auto">
+                  <a href="#" class="btn btn-travel-detail px-4">
+                    View Detail
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-networks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Our Network</h2>
+              <p>
+                Companies are trusted us <br />
+                more than just a trip
+              </p>
+            </div>
+            <div class="col-md-8 text-center">
+              <img
+                src="images/icon/partner@2x.png"
+                alt="partner"
+                class="img-partner"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonial-heading" id="testimonial">
+        <div class="container">
+          <div class="col text-center">
+            <h2>They Are Loving Us</h2>
+            <p>
+              Moments were giving them <br />
+              the best experience
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-testimonial-content">
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center">
+            <div class="col-sm-6 colmd-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="images/avatar/member-1@2x.png"
+                    alt="user"
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Herra</h3>
+                  <p class="testimonial">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Asperiores assumenda totam reprehenderit adipisci.
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Trip to Ubud</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 colmd-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="images/avatar/member-2@2x.png"
+                    alt="user"
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Febry</h3>
+                  <p class="testimonial">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Asperiores assumenda totam reprehenderit adipisci.
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Trip to Ubud</p>
+              </div>
+            </div>
+
+            <div class="col-sm-6 colmd-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <img
+                    src="images/avatar/member-3@2x.png"
+                    alt="user"
+                    class="mb-4 rounded-circle"
+                  />
+                  <h3 class="mb-4">Lee Jun Hoo</h3>
+                  <p class="testimonial">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">Trip to Ubud</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="" class="btn btn-need-help px-4 mt-4 mx-1"> Need Help </a>
+            <a href="" class="btn btn-get-started px-4 mt-4 mx-1">
+              Get Started
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>Features</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Review</a></li>
+                  <li><a href="#">Comunity</a></li>
+                  <li><a href="#">Social Media</a></li>
+                  <li><a href="#">Affiliate</a></li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <h5>Account</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Rewards</a></li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+                </ul>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <h5>Get Connected</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Jakarta Selatan</a></li>
+                  <li><a href="#">Indonesia</a></li>
+                  <li><a href="#">0852-1120-9688</a></li>
+                  <li><a href="#">support@nomads.id</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gret-500 font-weight-light">
+            2020 Copyright Nomads - All right reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Separate Popper and Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.3/retina.min.js"></script>
+  </body>
+</html>
